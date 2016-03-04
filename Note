@@ -1,0 +1,16 @@
+vim配置参考：https://github.com/notice501/dotfiles.git
+backup_config.sh    从环境中拷贝脚本到git目录, 用于备份到github
+deploy_config.sh    将vim配置部署到当前环境（部署后需要手工安装插件）
+
+目录结构
+~
+|-- .vimrc
+|-- .vim
+      |-- bundles.vim
+      |-- bundle
+            |-- ack.vim
+            |-- cmdline-completion
+            |-- nerdtree
+            |-- vim-multiple-cursors
+            |-- vundle
+            |-- ...
