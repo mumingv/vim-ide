@@ -15,5 +15,5 @@ cp -f ./vimrc ~/.vimrc
 cp -f ./bundles.vim ~/.vim/bundles.vim
 
 # 安装插件
-echo "[Info] Please run :BundleInstall in vim to install bundles/plugins. :)"
+echo "\e[32m[Info] Please run :BundleInstall in vim to install bundles/plugins and then run deploy_config_step2.sh :)\e[0m"
 
