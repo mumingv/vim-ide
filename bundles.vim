@@ -4,6 +4,12 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" 说明
+" 1. 插件在github的vim-scripts用户（即https://github.com/vim-scripts）下，只需写插件名称就可以，如: 'c.vim';
+" 2. 插件在github其他用户下，需要写用户名/插件名称，如：'gmarik/vundle';
+" 3. 插件步骤github用户下，需要写git的全路径;
+
+
 " let Vundle manage Vundle
 " required!
 " 插件管理器
@@ -83,6 +89,8 @@ Bundle 'vim-scripts/cmdline-completion'
 "Bundle 'tpope/vim-pastie'
 "Bundle 'ianva/vim-youdao-translater'
 "Bundle 'bronson/vim-trailing-whitespace'
+" C/C++语言自动注释，函数头，文件头
+Bundle 'c.vim'
 
 "----------------------------------------
 " Syntax/Indent for language enhancement
