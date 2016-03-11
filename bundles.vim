@@ -90,7 +90,7 @@ Bundle 'vim-scripts/cmdline-completion'
 "Bundle 'ianva/vim-youdao-translater'
 "Bundle 'bronson/vim-trailing-whitespace'
 " C/C++语言自动注释，函数头，文件头
-Bundle 'mumingv/c.vim'
+Bundle 'c.vim'
 
 "----------------------------------------
 " Syntax/Indent for language enhancement

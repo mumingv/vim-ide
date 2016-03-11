@@ -10,4 +10,5 @@ cp -f ~/.vim/bundles.vim ./
 cp -rf ~/.vim/bundle/c.vim/c-support/codesnippets ./bundle/c.vim/c-support/
 cp -rf ~/.vim/bundle/c.vim/c-support/templates ./bundle/c.vim/c-support/
 
-echo "\e[32mBackup config files successfully. \e[0m"
+echo -e "\e[32mBackup config files successfully. \e[0m"
+
