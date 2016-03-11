@@ -89,12 +89,18 @@ Bundle 'vim-scripts/cmdline-completion'
 "Bundle 'tpope/vim-pastie'
 "Bundle 'ianva/vim-youdao-translater'
 "Bundle 'bronson/vim-trailing-whitespace'
-" C/C++语言自动注释，函数头，文件头
-Bundle 'c.vim'
 
 "----------------------------------------
 " Syntax/Indent for language enhancement
 "----------------------------------------
+
+" C/C++
+" 自动注释，函数头，文件头
+Bundle 'c.vim'
+
+" PHP
+" php-documentation格式注释
+Bundle 'PDV--phpDocumentor-for-Vim'
 
 "js
 "Bundle 'jelera/vim-javascript-syntax'

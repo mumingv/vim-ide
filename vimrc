@@ -56,7 +56,7 @@ set t_Co=256                                                      " Explicitly t
 set report=0                                                      " always report number of lines changed                "
 " 是否折行显示
 "set nowrap                                                        " dont wrap lines
-set scrolloff=5                                                   " 5 lines above/below cursor when scrolling
+"set scrolloff=5                                                   " 5 lines above/below cursor when scrolling
 set number                                                        " show line numbers
 set showmatch                                                     " show matching bracket (briefly jump)
 set showcmd                                                       " show typed command in status bar
@@ -326,6 +326,17 @@ cmap <expr> <c-n> getcmdpos() == 1 ? '<down><home>' : '<plug>CmdlineCompletionFo
 "autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 "autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+
+" Plugin: phpcomplete
+autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
+
+" Plugin: phpDocumentor-for-Vim
+" 插入模式下非递归映射
+inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
+" 普通模式下非递归映射
+nnoremap <C-P> :call PhpDocSingle()<CR>
+" 可视模式下非递归映射
+vnoremap <C-P> :call PhpDocRange()<CR>
 
 " Enable heavy omni completion.
 "if !exists('g:neocomplete#sources#omni#input_patterns')
