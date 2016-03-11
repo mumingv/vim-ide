@@ -241,7 +241,7 @@ nnoremap <F5> :!ctags -R<cr>
 nmap <F6> :NERDTreeToggle<cr>
 
 " nerdcommenter
-"let NERDSpaceDelims=1
+let NERDSpaceDelims=1
 "nmap <D-/> :NERDComToggleComment<cr>
 "let NERDCompactSexyComs=1
 
@@ -337,6 +337,12 @@ inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-P> :call PhpDocSingle()<CR>
 " 可视模式下非递归映射
 vnoremap <C-P> :call PhpDocRange()<CR>
+
+" Plugin: AuthorInfo
+let g:vimrc_author='Jie Yin'
+let g:vimrc_email='mumingv@163.com'
+let g:vimrc_homepage='https://github.com/mumingv'
+nnoremap <F4> :AuthorInfoDetect<cr>
 
 " Enable heavy omni completion.
 "if !exists('g:neocomplete#sources#omni#input_patterns')

@@ -38,7 +38,10 @@ Bundle 'gmarik/vundle'
 " Fast editing
 "--------------
 "Bundle 'tpope/vim-surround'
-"Bundle 'scrooloose/nerdcommenter'
+" 快速注释
+Bundle 'scrooloose/nerdcommenter'
+" 文件头信息
+Bundle 'isdamir/AuthorInfo'
 "Bundle 'sjl/gundo.vim'
 "Bundle 'kana/vim-smartinput'
 "Bundle 'godlygeek/tabular'
@@ -96,7 +99,7 @@ Bundle 'vim-scripts/cmdline-completion'
 
 " C/C++
 " 自动注释，函数头，文件头
-Bundle 'c.vim'
+Bundle 'vim-scripts/c.vim'
 
 " PHP
 " php-documentation格式注释
