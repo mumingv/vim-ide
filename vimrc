@@ -342,7 +342,9 @@ autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 let g:vimrc_author='Jie Yin'
 let g:vimrc_email='mumingv@163.com'
 let g:vimrc_homepage='https://github.com/mumingv'
-nnoremap <F4> :AuthorInfoDetect<cr>
+"nnoremap <F4> :AuthorInfoDetect<cr>
+" Plugin: vim-Comment
+nnoremap <F4> :CommentDetect<cr>
 
 " Enable heavy omni completion.
 "if !exists('g:neocomplete#sources#omni#input_patterns')

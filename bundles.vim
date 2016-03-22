@@ -41,7 +41,8 @@ Bundle 'gmarik/vundle'
 " 快速注释
 Bundle 'scrooloose/nerdcommenter'
 " 文件头信息
-Bundle 'isdamir/AuthorInfo'
+"Bundle 'isdamir/AuthorInfo'
+Bundle 'mumingv/vim-comment'
 "Bundle 'sjl/gundo.vim'
 "Bundle 'kana/vim-smartinput'
 "Bundle 'godlygeek/tabular'
