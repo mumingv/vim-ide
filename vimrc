@@ -332,11 +332,11 @@ autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 
 " Plugin: phpDocumentor-for-Vim
 " 插入模式下非递归映射
-inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
+"inoremap <C-H> <ESC>:call PhpDocSingle()<CR>i
 " 普通模式下非递归映射
-nnoremap <C-P> :call PhpDocSingle()<CR>
+"nnoremap <C-H> :call PhpDocSingle()<CR>
 " 可视模式下非递归映射
-vnoremap <C-P> :call PhpDocRange()<CR>
+"vnoremap <C-H> :call PhpDocRange()<CR>
 
 " Plugin: AuthorInfo
 let g:vimrc_author='Jie Yin'
