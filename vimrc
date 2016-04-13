@@ -58,11 +58,13 @@ set report=0                                                      " always repor
 "set nowrap                                                        " dont wrap lines
 "set scrolloff=5                                                   " 5 lines above/below cursor when scrolling
 set number                                                        " show line numbers
+" 是否提示对应的括号
 set showmatch                                                     " show matching bracket (briefly jump)
 set showcmd                                                       " show typed command in status bar
 set title                                                         " show file in titlebar
 set laststatus=2                                                  " use 2 lines for the status bar
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
+" 设置其他匹配的括号对
 set matchpairs+=<:>                                               " specially for html
 set clipboard=unnamed                                             " yank and paste with the system clipboard
 set hidden
@@ -97,6 +99,7 @@ set expandtab       " expand tab to space
 
 " highlight tabs and trailing spaces
 "set list
+" 控制显示内容
 "set listchars=tab:>-,trail:-,extends:>,precedes:<
 
 "-----------------
@@ -331,10 +334,10 @@ cmap <expr> <c-n> getcmdpos() == 1 ? '<down><home>' : '<plug>CmdlineCompletionFo
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 
 " Plugin: phpDocumentor-for-Vim
-" 插入模式下非递归映射
-"inoremap <C-H> <ESC>:call PhpDocSingle()<CR>i
 " 普通模式下非递归映射
 "nnoremap <C-H> :call PhpDocSingle()<CR>
+" 插入模式下非递归映射
+"inoremap <C-H> <ESC>:call PhpDocSingle()<CR>i
 " 可视模式下非递归映射
 "vnoremap <C-H> :call PhpDocRange()<CR>
 
@@ -345,6 +348,8 @@ let g:vimrc_homepage='https://github.com/mumingv'
 "nnoremap <F4> :AuthorInfoDetect<cr>
 " Plugin: vim-Comment
 nnoremap <F4> :CommentDetect<cr>
+" 插入模式暂不可用，需要修改插件脚本
+"inoremap <F4> :CommentDetect<cr>
 
 " Enable heavy omni completion.
 "if !exists('g:neocomplete#sources#omni#input_patterns')
