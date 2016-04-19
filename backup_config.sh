@@ -11,6 +11,8 @@ cp -rf ~/.vim/bundle/c.vim/c-support/codesnippets ./bundle/c.vim/c-support/
 cp -rf ~/.vim/bundle/c.vim/c-support/templates ./bundle/c.vim/c-support/
 # 插件AuthorInfo代码
 #cp ~/.vim/bundle/AuthorInfo/plugin/authorinfo.vim bundle/AuthorInfo/plugin/authorinfo.vim
+# 插件PDV--phpDocumentor-for-Vim代码
+cp ~/.vim/bundle/PDV--phpDocumentor-for-Vim/plugin/php-doc.vim bundle/PDV--phpDocumentor-for-Vim/plugin/php-doc.vim
 
 echo -e "\e[32mBackup config files successfully. \e[0m"
 

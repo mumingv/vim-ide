@@ -335,7 +335,7 @@ autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 
 " Plugin: phpDocumentor-for-Vim
 " 普通模式下非递归映射
-"nnoremap <C-H> :call PhpDocSingle()<CR>
+nnoremap <C-H> :call PhpDoc()<CR>
 " 插入模式下非递归映射
 "inoremap <C-H> <ESC>:call PhpDocSingle()<CR>i
 " 可视模式下非递归映射
