@@ -203,7 +203,7 @@ let MRU_Max_Entries = 400
 " Tagbar 标签跳转 (taglist的替代品)
 let g:tagbar_right=1
 let g:tagbar_width=30
-nmap <F3> :TagbarToggle<cr>
+nmap <F6> :TagbarToggle<cr>
 nnoremap <F5> :!ctags -R<cr>
 "let g:tagbar_autofocus = 1
 "let g:tagbar_sort = 0
@@ -241,7 +241,7 @@ nnoremap <F5> :!ctags -R<cr>
 " let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 "let NERDTreeShowBookmarks=1
 "let NERDTreeWinPos = "left"
-nmap <F6> :NERDTreeToggle<cr>
+nmap <F3> :NERDTreeToggle<cr>
 
 " nerdcommenter
 let NERDSpaceDelims=1
