@@ -12,12 +12,12 @@
 2. 安装配置
 
    ```vim
-   $ git clone https://github.com/mumingv/config
-   $ cd config/vim
-   $ sh deploy_config.sh
+   $ git clone https://github.com/mumingv/vim.git
+   $ cd vim
+   $ sh deploy_config_step1.sh
    ```
 
-   > config目录可以放在任何位置，无特别要求。
+   > vim目录可以放在任何位置，无特别要求。
 
 3. 安装插件
 
@@ -28,6 +28,11 @@
 
    > 先执行vim命令打开编辑器，然后在vim窗口键入":BundleInstall"下载安装插件。
 
+4. 自定义配置(可选)
+   
+   ```vim
+   $ sh deploy_config_step2.sh
+   ```
 
 # 如何使用
 
@@ -37,7 +42,7 @@
 - ### [nerdtree 文件树](https://github.com/scrooloose/nerdtree)
 
    ```
-   <F6>打开/关闭文件树
+   <F3>打开/关闭文件树
    ```
 
 
