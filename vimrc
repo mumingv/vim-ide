@@ -448,7 +448,7 @@ nnoremap <F4> :CommentDetect<cr>
 "map <leader><space> :vimgrep // <C-R>%<C-A><right><right><right><right><right><right><right><right><right>
 
 "Toggle paste mode on and off:
-"map <leader>pp :setlocal paste!<cr>
+map <leader>pp :setlocal paste!<cr>
 
 "use ag instead of ack, should install the_silver_searcher
 "let g:ackprg = 'ag --nogroup --nocolor --column'
