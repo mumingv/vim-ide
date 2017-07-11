@@ -36,25 +36,25 @@ set smartcase
 " editor settings
 set history=1000
 set nocompatible
-"set nofoldenable                                                  " disable folding"
-set confirm                                                       " prompt when existing from an unsaved file
-set backspace=indent,eol,start                                    " More powerful backspacing
-set t_Co=256                                                      " Explicitly tell vim that the terminal has 256 colors "
-"set mouse=a                                                       " use mouse in all modes
-set report=0                                                      " always report number of lines changed                "
+"set nofoldenable                                " disable folding
+set confirm                                     " prompt when existing from an unsaved file
+set backspace=indent,eol,start                  " More powerful backspacing
+set t_Co=256                                    " Explicitly tell vim that the terminal has 256 colors "
+set mouse=                                      " 不在vim中使用鼠标，因为要在SecureCRT中使用鼠标
+set report=0                                    " always report number of lines changed                "
 " 是否折行显示
-"set nowrap                                                        " dont wrap lines
-"set scrolloff=5                                                   " 5 lines above/below cursor when scrolling
-set number                                                        " show line numbers
+"set nowrap                                      " dont wrap lines
+"set scrolloff=5                                 " 5 lines above/below cursor when scrolling
+set number                                      " show line numbers
 " 是否提示对应的括号
-set showmatch                                                     " show matching bracket (briefly jump)
-set showcmd                                                       " show typed command in status bar
-set title                                                         " show file in titlebar
-set laststatus=2                                                  " use 2 lines for the status bar
-set matchtime=2                                                   " show matching bracket for 0.2 seconds
+set showmatch                                   " show matching bracket (briefly jump)
+set showcmd                                     " show typed command in status bar
+set title                                       " show file in titlebar
+set laststatus=2                                " use 2 lines for the status bar
+set matchtime=2                                 " show matching bracket for 0.2 seconds
 " 设置其他匹配的括号对
-set matchpairs+=<:>                                               " specially for html
-set clipboard=unnamed                                             " yank and paste with the system clipboard
+set matchpairs+=<:>                             " specially for html
+set clipboard=unnamed                           " yank and paste with the system clipboard
 set hidden
 
 " Default Indentation
