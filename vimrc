@@ -13,9 +13,9 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 " 文件编码(gbk)
-"set encoding=gb2312
-"set fileencoding=gb2312
-"set fileencodings=gb2312,gb18030,gbk,utf-8,ucs-bom,cp936,latin1
+"set encoding=gbk
+"set fileencoding=gbk
+"set fileencodings=gbk,gb18030,gb2312,utf-8,ucs-bom,cp936,latin1
 
 " enable filetype dectection and ft specific plugin/indent
 "filetype plugin indent on
