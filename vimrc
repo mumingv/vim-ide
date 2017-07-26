@@ -76,7 +76,7 @@ map <leader>pp :setlocal paste!<cr>
 " 自动补全括号
 "imap ( ()<ESC>i
 "imap [ []<ESC>i
-imap { {}<ESC>i<CR><ESC>V<O
+"imap { {}<ESC>i<CR><ESC>V<O
 
 " 防止退出时误操作
 :command W w
