@@ -99,11 +99,11 @@ map <leader>pp :setlocal paste!<cr>
 " Tagbar 标签跳转 (taglist的替代品)
 let g:tagbar_right=1
 let g:tagbar_width=30
-nmap <F6> :TagbarToggle<cr>
+nmap <F7> :TagbarToggle<cr>
 nnoremap <F5> :!ctags -R<cr>
 
 " nerdtree 文件树
-nmap <F7> :NERDTreeToggle<cr>
+nmap <F6> :NERDTreeToggle<cr>
 
 " nerdcommenter
 let NERDSpaceDelims=1

@@ -42,7 +42,7 @@
 - ### [nerdtree 文件树](https://github.com/scrooloose/nerdtree)
 
    ```
-   <F3>打开/关闭文件树
+   <F6>打开/关闭文件树
    ```
 
 
