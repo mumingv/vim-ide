@@ -12,7 +12,7 @@
 2. 安装配置
 
    ```vim
-   $ git clone https://github.com/mumingv/vim.git
+   $ git clone https://github.com/mumingv/vim-ide.git
    $ cd vim
    $ sh deploy_config_step1.sh
    ```
